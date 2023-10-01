@@ -51,7 +51,7 @@ int main() {
         for (int j = 0; j < size; j++) {
             if (matrix_without_zeros[i][j] == 0) {
                 row_with_zero = i;
-                cout << "Row with zero: " << row_with_zero << endl;
+                cout << endl << "Row with zero: " << row_with_zero << endl;
                 return 0;
             }
         }
